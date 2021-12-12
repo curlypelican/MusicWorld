@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все о Мире музыки</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3698/3698272.png" type="image/png">
+</head>
+
+<body>
+    <div class="wrapper">
+		<div class="content">    
+			<!--Хэддер-->
+			<header class="header" id="header">
+				<div class="container">
+				    <div class="header__inner">
+                        <a id="logo-ref" href="index.html"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/3698/3698272.png" alt="Логотип"></a>
+                        <nav class="nav" id="nav">
+                            <a class="nav__link" href="index.html">Home</a>
+                            <a class="nav__link" href="about.html">About</a>
+                            <a class="nav__link" href="music.html">Music</a>
+                            <a class="nav__link" href="contacts.html">Contacts</a>
+                            <a class="nav__link" href="account.html">Account</a>
+                            <div class="search">
+                                <form>
+                                <input type="text" placeholder="Поиск...">
+                                <button type="submit"></button>
+                                </form>
+                            </div>
+                        </nav>
+                        <!--меню бургер-->
+                        <button class="nav-toggle" id="nav_toggle" type="button">
+                            <span class="nav-toggle__item">Menu</span>
+                        </button>
+				    </div>
+			    </div>
+			</header>
+            <!-- <header>
+                <a id="logo-ref" href="index.html"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/3698/3698272.png" alt="Логотип"></a>
+				<nav class="nav">
+					<a class="nav__link" href="index.html">Home</a>
+					<a class="nav__link" href="about.html">About</a>
+					<a class="nav__link" href="music.html">Music</a>
+					<a class="nav__link" href="contacts.html">Contacts</a>
+					<a class="nav__link" href="account.html">Account</a>
+                    <div class="search">
+                        <form>
+                            <input type="text" placeholder="Поиск...">
+                            <button type="submit"></button>
+                        </form>
+                    </div>
+                </nav>
+                
+				<button class="nav-toggle" type="button">
+					<span class="nav-toggle__item">Menu</span>
+				</button>
+            </header> -->
+
+            <section id="about">
+                <div class="container">
+                    <div class="about__header">
+                        <h2 class="section__title">About</h2>
+                        <div class="about__text">
+                            <p>Здесь Вы cможете найти множество интересной инормации о Мире музыки и погрузиться в него с головой!</p>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <div class="card__item">
+                            <div class="card__inner">
+                                <div class="card__img">
+                                    <img src="img/13.jpeg" alt="История">
+                                </div>
+                                <div class="card__text"><a href="#history">История музыки</a></div>
+                            </div>
+                        </div>
+        
+                        <div class="card__item">
+                            <div class="card__inner">
+                                <div class="card__img">
+                                    <img src="img/15.jpeg" alt="Жанры">
+                                </div>
+                                <div class="card__text"><a href="#genres">Жанры в музыке</a></div>                        
+                            </div>
+                        </div>
+        
+                        <div class="card__item">
+                            <div class="card__inner">
+                                <div class="card__img">
+                                    <img src="img/16.jpeg" alt="Новости">
+                                </div>
+                                <div class="card__text"><a href="#news">Новости</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section id="history">
+                <div class="container">
+                    <div class="history__header">
+                        <h2 class="section__title">history</h2>
+                    </div>
+                    <div class="card">
+                        <div class="card__item">
+                            <div class="card__inner">
+                                <div class="card__img">
+                                    <img src="img/h3.jpeg" alt="Античность">
+                                </div>
+                                <div class="card__text">
+                                    <h3 id="history-txt">Античность</h3>
+                                    <a class="history__btn" href="https://arzamas.academy/mag/594-muztabl">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__inner">
+                                <div class="card__img">
+                                    <img src="img/h5.jpeg" alt="Средневековье">
+                                </div>
+                                <div class="card__text">
+                                    <h3 id="history-txt">Средневековье</h3>
+                                    <a class="history__btn" href="https://arzamas.academy/mag/594-muztabl">Подробнее</a>
+                                </div>                        
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__inner">
+                                <div class="card__img">
+                                    <img src="img/h4.jpeg" alt="Модернизм">
+                                </div>
+                                <div class="card__text">
+                                    <h3 id="history-txt">Модернизм</h3>
+                                    <a class="history__btn" href="https://arzamas.academy/mag/594-muztabl">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="genres">
+                <div class="container">
+                    <div class="about__header">
+                        <h2 class="section__title">Жанры в музыке</h2>
+                    </div>
+                </div>
+                <div class="genres">
+                    <div class="genres__col">
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g1.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%BD_(%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0)">WESTERN</a></div>
+                                <div class="genres__text">Вестерн прославляет ковбойскую жизнь и непосредственно связан со старинными английскими, 
+                                    шотландскими и ирландскими балладами. На развитие вестерна оказала влияние мексиканская 
+                                    музыка юго-запада Америки. Из-за классификации Billboard, вестерн ассоциируется с кантри-музыкой. 
+                                    Однако для исполнителей вестерна такая ассоциация является ошибочной.</div>
+                            </div>
+                        </div>
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g2.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BF-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0">POP</a></div>
+                                <div class="genres__text">Область массовой культуры, охватывающая различные формы, 
+                                    жанры и стили развлекательной и прикладной музыки 2-й половины XX — начала XXI веков. 
+                                    Вид массовой культуры. Основные черты поп-музыки — простота инструментальной части, 
+                                    ритмичность, акцент на вокал. Основная и практически единственная форма композиции в поп-музыке — песня.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genres__col">
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g3.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BA-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0">ROCK</a></div>
+                                <div class="genres__text">Истоки рок-музыки лежат в блюзе, из которого и вышли первые рок-жанры — рок-н-ролл и рокабилли. 
+                                    Первые поджанры рок-музыки возникали в тесной связи с народной и эстрадной музыкой того времени. За время существования 
+                                    рок-музыки её пытались соединить практически со всеми возможными жанрами музыки.</div>
+                            </div>
+                        </div>
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g4.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE">TECHNO</a></div>
+                                <div class="genres__text">Жанр электронной музыки, зародившийся в Германии и впоследствии 
+                                    подхваченный американскими продюсерами. Он характеризуется искусственностью звука, за счёт активного 
+                                    использования сэмплирования, акцентом на механических ритмах, многократным повторением структурных 
+                                    элементов музыкального произведения.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genres__col">
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g5.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B8%D0%BF-%D1%85%D0%BE%D0%BF">HIP-HOP</a></div>
+                                <div class="genres__text">Музыкальный жанр популярной музыки, развитый в США афроамериканцами и латиноамериканцами, 
+                                    живущими в бедных районах Бронкса в Нью-Йорке в 1970-х годах. Хип-хоп-музыка состоит из стилизованной ритмичной музыки, 
+                                    которая обычно сопровождается рэпом, ритмичной и рифмованной речью.</div>
+                            </div>
+                        </div>
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g6.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0">CLASSIC</a></div>
+                                <div class="genres__text"> Классические музыкальные произведения сочетают глубину, содержательность, 
+                                    идейную значительность с совершенством формы. К классической музыке могут быть отнесены как произведения, 
+                                    созданные в прошлом, так и современные сочинения.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genres__col">
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g7.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B0%D0%B7">JAZZ</a></div>
+                                <div class="genres__text">Это направление возникло в США в начале XX века. 
+                                    В нем тесно переплетаются ритмы, обрядовые песнопения и рабочие песни афроамериканцев.
+                                     Другими словами, это импровизационный жанр, появившийся в результате смешивания западноевропейской и западноафриканской музыки.</div>
+                            </div>
+                        </div>
+                        <div class="genres__item">
+                            <img class="genres__image" src="img/g8.jpg" alt="">
+                            <div class="genres__info">
+                                <div class="genres__title"><a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D0%BE">DISCO</a></div>
+                                <div class="genres__text">Музыкальный стиль, возникший в конце 60-х в США и достигший 
+                                    популярности к середине 70-х. Появление связывается с противоборством, отторжением рок-музыки. 
+                                    Первоначальная аудитория относилась к клубной культуре.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="news">
+                <div class="container">
+                    <div class="news__header">
+                        <h2 class="section__title">News</h2>
+                    </div>
+                    <div class="newss">
+                        <div class="newss__item">
+                            <div class="newss__header">
+                                <a target="_blank"v href="#">
+                                    <img class="news__photo" src="img/n4.jpeg" alt="">
+                                </a>
+                                <div class="news__date">
+                                    <div class="news__date-day">12</div>
+                                    Dec
+                                </div>
+                            </div>
+                            <div class="news__content">
+                                <div class="newss__title">
+                                    <a target="_blank" href="https://www.nashe.ru/news/5-faktov-o-pesnyah-gruppy-bravo?utm_source=yxnews&utm_medium=desktop">5 ФАКТОВ О ПЕСНЯХ ГРУППЫ «БРАВО»</a>
+                                </div>
+                                <div class="news__text">Делимся с вами фактами о песнях главных московских романтиков — группы «Браво». ФАКТ #1 Изначально Вася в песне был Эдиком, так как Эдуард было одним из самых популярных имён среди советских стиляг. Но Валерий Сюткин, недавно пришедший в коллектив, выразил сомнения, что вариант с Эдиком найдёт понимание у поклонников. В итоге был выбран шуточный вариант «Вася», а песня стала одной из визитных карточек группы.</div>
+                            </div>
+                        </div>
+                        <div class="newss__item">
+                            <div class="newss__header">
+                                <a target="_blank" href="#">
+                                    <img class="news__photo" src="img/n5.jpeg" alt="">
+                                </a>
+                                <div class="news__date">
+                                    <div class="news__date-day">5</div>
+                                    Nov
+                                </div>
+                            </div>
+                            <div class="news__content">
+                                <div class="newss__title">
+                                    <a target="_blank" target="_blank" href="https://www.gazeta.ru/culture/2021/11/05/a_14172307.shtml">Группа ABBA выпустила альбом Voyage</a>
+                                </div>
+                                <div class="news__text">Шведский квартет ABBA вернулся с первым за почти 40 лет студийным альбомом — Voyage. В него вошли десять треков, два из которых были представлены еще в сентябре. «Газета.Ru» — о том, как музыкальная индустрия отреагировала на девятый альбом ABBA.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newss__item">
+                            <div class="newss__header">
+                                <a target="_blank" href="#">
+                                    <img class="news__photo" src="img/n6.jpeg" alt="">
+                                </a>
+                                <div class="news__date">
+                                    <div class="news__date-day">11</div>
+                                    Dec
+                                </div>
+                            </div>
+                            <div class="news__content">
+                                <div class="newss__title">
+                                    <a target="_blank" href="https://ria.ru/20211211/grammofon-1763242545.html">"Золотой Граммофон": яркие моменты премии</a>
+                                </div>
+                                <div class="news__text">МОСКВА, 11 дек. В Москве в Государственном Кремлевском дворце состоялась XXVI церемония вручения национальной музыкальной премии "Золотой Граммофон". Как прошло событие — в фотоленте РИА Новости.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>              
+            </section>
+            <section id="news">
+                <div class="container">
+                    <div class="newss">
+                        <div class="newss__item">
+                            <div class="newss__header">
+                                <a target="_blank" href="#">
+                                    <img class="news__photo" src="img/n1.jpeg" alt="">
+                                </a>
+                                <div class="news__date">
+                                    <div class="news__date-day">11</div>
+                                    Dec
+                                </div>
+                            </div>
+                            <div class="news__content">
+                                <div class="newss__title">
+                                    <a target="_blank" href="#">Lorem собирается поехать в тур</a>
+                                </div>
+                                <div class="news__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odit consequuntur molestias dolorum sint natus quidem quisquam eius possimus ipsa, sapiente, aperiam qui eum non dolores voluptates, eos laborum provident? Ipsa facilis labore, ut culpa provident sed sit soluta repellendus amet expedita aliquam possimus eveniet similique explicabo tempore blanditiis! Necessitatibus.</div>
+                            </div>
+                        </div>
+                        <div class="newss__item">
+                            <div class="newss__header">
+                                <a target="_blank" href="#">
+                                    <img class="news__photo" src="img/n2.jpeg" alt="">
+                                </a>
+                                <div class="news__date">
+                                    <div class="news__date-day">25</div>
+                                    Nov
+                                </div>
+                            </div>
+                            <div class="news__content">
+                                <div class="newss__title">
+                                    <a target="_blank" href="#">Ipsum дала интервью в газете lorem</a>
+                                </div>
+                                <div class="news__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi voluptas aliquid eaque dolorum placeat repellat dolor facere harum in! Incidunt ab nemo praesentium repellat, placeat animi vel iure impedit ipsa provident quos tempora, odio ratione voluptates adipisci voluptatum. Expedita quibusdam impedit itaque, quisquam reprehenderit harum sequi quam tempora voluptas!</div>
+                            </div>
+                        </div>
+                        <div class="newss__item">
+                            <div class="newss__header">
+                                <a target="_blank" href="#">
+                                    <img class="news__photo" src="img/n3.jpeg" alt="">
+                                </a>
+                                <div class="news__date">
+                                    <div class="news__date-day">1</div>
+                                    Jan
+                                </div>
+                            </div>
+                            <div class="news__content">
+                                <div class="newss__title">
+                                    <a target="_blank" href="#">У нас появился сайт!</a>
+                                </div>
+                                <div class="news__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur error deleniti eos, pariatur natus ipsum voluptas, libero temporibus quia eaque autem suscipit ab doloremque fugit doloribus repellendus maiores tempora perferendis. Enim laboriosam cum reprehenderit magni? Repellendus cum doloremque quia enim, nesciunt dignissimos quasi natus odio atque? Dicta nesciunt voluptas aspernatur?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </section>
+
+            </div>
+            <footer>
+                <div id="footer-content">
+                <div class="footer-navigation">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a class="navigation-link" href="index.html">Home</a></li>
+                        <li><a class="navigation-link" href="about.html">About</a></li>
+                        <li><a class="navigation-link" href="music.html">Music</a></li>
+                        <li><a class="navigation-link" href="contacts.html">Contacts</a></li>
+                        <li><a class="navigation-link" href="account.html">Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation">
+                    <h3>Contacts</h3>
+                    <ul class="contacts">
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p><a href="tel:+79775833762">+7 977 583-37-62</a></p>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p><a href="mailto:anja.zujkova@gmail.com">anja.zujkova@gmail.com</a></p>  
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Москва, Пр-т Вернадского, д. 78
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            
+            </footer>
+                <div class="copyright-text">
+                    <p>2021© Student MIREA. ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="menu.js"></script>
+</body>
+</html>

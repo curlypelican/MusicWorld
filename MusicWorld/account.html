@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в аккаунт</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3698/3698272.png" type="image/png">
+</head>
+
+<body>
+    <div class="wrapper">
+		<div class="content">
+			<!--Хэддер-->
+			<header class="header" id="header">
+				<div class="container">
+					<div class="header__inner">
+				<a id="logo-ref" href="index.html"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/3698/3698272.png" alt="Логотип"></a>
+				<nav class="nav" id="nav">
+					<a class="nav__link" href="index.html">Home</a>
+					<a class="nav__link" href="about.html">About</a>
+					<a class="nav__link" href="music.html">Music</a>
+					<a class="nav__link" href="contacts.html">Contacts</a>
+					<a class="nav__link" href="account.html">Account</a>
+					<div class="search">
+						<form>
+						  <input type="text" placeholder="Поиск...">
+						  <button type="submit"></button>
+						</form>
+					</div>
+				</nav>
+				<!--меню бургер-->
+				<button class="nav-toggle" id="nav_toggle" type="button">
+					<span class="nav-toggle__item">Menu</span>
+				</button>
+				</div>
+			</div>
+			</header>
+
+
+    <section id="account">
+        <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+            <div class="square" style="--i:5;"></div>
+            <div class="wrap-account">
+                <h2>Account</h2>
+                <form action="index.html">
+                    <div class="field email">
+                        <div class="input-area">
+                            <input type="email" placeholder="Почта" >
+                            <i class="icon fa fa-envelope" aria-hidden="true"></i>
+                            <i class="error error-icon fa fa-exclamation-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="error error-txt">Это поле не может быть пустым</div>
+                    </div>
+                    <div class="field password">
+                        <div class="input-area">
+                            <input type="password" placeholder="Пароль" >
+                            <i class="icon fa fa-lock" aria-hidden="true"></i>
+                            <i class="error error-icon fa fa-exclamation-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="error error-txt">Это поле не может быть пустым</div>
+                    </div>
+                    <input type="submit" value="Войти">
+                </form>
+                <div class="signup-link">Нет аккаунта? <a href="#sign-up">Зарегистрируйтесь!</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sign-up">
+        <div class="form__box">
+            <h2>Create Account</h2>
+            <form id="form2" class="form">
+                <div class="form-control">
+                    <input type="text" placeholder="Username" id="username" />
+                    <i class="icon fa fa-user" aria-hidden="true"></i>
+                    <i class="error error-icon fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <small>Это поле не может быть пустым</small>
+                </div>
+                <div class="form-control">
+                    <input type="email" placeholder="Почта" id="email" />
+                    <i class="icon fa fa-envelope" aria-hidden="true"></i>
+                    <i class="error error-icon fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <small>Это поле не может быть пустым</small>
+                </div>
+                <div class="form-control">
+                    <input type="password" placeholder="Пароль" id="password">
+                    <i class="icon fa fa-lock" aria-hidden="true"></i>
+                    <i class="error error-icon fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <small>Это поле не может быть пустым</small>
+                </div>
+                <div class="form-control">
+                    <input type="password" placeholder="Повтор пароля" id="password2"/>
+                    <i class="icon fa fa-lock" aria-hidden="true"></i>
+                    <i class="error error-icon fa fa-exclamation-circle" aria-hidden="true"></i>
+                    <small>Это поле не может быть пустым</small>
+                </div>
+                <button>Зарегистрироваться</button>
+            </form>
+        </div>
+    </section>
+        
+    <footer>
+        <div id="footer-content">
+          <div class="footer-navigation">
+              <h3>Navigation</h3>
+              <ul>
+                <li><a class="navigation-link" href="index.html">Home</a></li>
+                <li><a class="navigation-link" href="about.html">About</a></li>
+                <li><a class="navigation-link" href="music.html">Music</a></li>
+                <li><a class="navigation-link" href="contacts.html">Contacts</a></li>
+                <li><a class="navigation-link" href="account.html">Account</a></li>
+              </ul>
+          </div>
+          <div class="footer-navigation">
+            <h3>Contacts</h3>
+            <ul class="contacts">
+              <li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p><a href="tel:+79775833762">+7 977 583-37-62</a></p>
+              </li>
+              <li>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p><a href="mailto:anja.zujkova@gmail.com">anja.zujkova@gmail.com</a></p>  
+            </li>
+              <li>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                Москва, Пр-т Вернадского, д. 78
+            </li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+        <div class="copyright-text">
+            <p>2021© Student MIREA. ALL RIGHTS RESERVED</p>
+        </div>
+        </div>
+    </div>
+	<script src="account.js"></script>
+    <script src="signup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="menu.js"></script>
+</body>
+</html>
